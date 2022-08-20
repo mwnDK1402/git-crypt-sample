@@ -4,7 +4,7 @@ import os
 import argparse
 from base64 import b64decode
 
-parser = argparse.ArgumentParser(description='Unencrypts repository')
+parser = argparse.ArgumentParser(description='Decrypts repository')
 
 parser.add_argument(
     'key', type=str, help='Base64-encoded key to unlock repository')
