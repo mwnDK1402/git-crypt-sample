@@ -1,0 +1,1 @@
+# Sample repository for git-crypt setup
