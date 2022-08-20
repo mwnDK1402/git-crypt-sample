@@ -20,3 +20,9 @@ Run once per user:
 ```
 $ ./unlock.py "<base64-encoded-key>"
 ```
+
+Anything inside of the `secrets/` directory will automatically be encrypted. Simply commit the secrets, and they will be encrypted.
+
+To check whether your files will be encrypted, run `git-crypt status`.
+
+Check [the docs](https://www.agwa.name/projects/git-crypt/) for information on how to edit `.gitattributes` and configure encrypted paths.
