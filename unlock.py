@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import argparse
 from base64 import b64decode
