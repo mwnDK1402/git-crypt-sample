@@ -7,7 +7,16 @@
 **Mac**: `brew install git-crypt`
 
 ## Setup instructions
+
+Run once per repository:
 ```
 $ git-crypt init
 $ git-crypt export-key ../git-crypt-key
+```
+
+## Usage instructions
+
+Run once per user:
+```
+$ ./unlock "<base64-encoded-key>"
 ```
