@@ -18,5 +18,5 @@ $ git-crypt export-key ../git-crypt-key
 
 Run once per user:
 ```
-$ ./unlock "<base64-encoded-key>"
+$ ./unlock.py "<base64-encoded-key>"
 ```
